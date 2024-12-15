@@ -2,7 +2,7 @@
 
 html, body, div {
   justify-content: center;
-  height: 100vh;
+  height: 60%;
   margin: auto;
   background-color: #353535;
   font-family:'JetBrains Mono';
@@ -10,9 +10,23 @@ html, body, div {
 
 .header-component {
   width:20%;
-  height:5%;
+  height:30%;
   margin-top:4%;
   background-color: #222222;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  white-space: nowrap;
+  padding-left:3.5%;
+  padding-right:1.5%;
+}
+
+.footer-component {
+  width:20%;
+  margin-top:16%;
+  margin-left:20.31%;
   color: white;
   display: flex;
   align-items: center;
@@ -35,6 +49,14 @@ html, body, div {
   margin-right:12.5%;
 }
 
+.footer-component .link1{
+  margin-right:9%;
+}
+
+.footer-component .link2{
+  margin-right:7%;
+}
+
 .link img{
   width:22.5%;
   height:22.5%;
@@ -50,4 +72,65 @@ html, body, div {
 
 .link:hover img{
   filter: invert(1) brightness(175%);
+}
+
+#main-text{
+  cursor: pointer;
+  margin-top:5%;
+  color:#797979;
+  padding-left:24%;
+  padding-right:24%;
+  line-height: 200%;
+  font-size:150%;
+  display: inline-block;
+  letter-spacing: -0.2em;
+}
+
+.letter, .letter2{
+  display:inline-block;
+  animation:typing 5s ease-in-out forwards;
+}
+
+@keyframes typing{
+  0%{
+    color:#dadada;
+  }
+  50%{
+    color:#dadada;
+  }
+  100%{
+    color:#dadada;
+  }
+}
+
+.cursor{
+  display: inline-block;
+  font-weight:bold;
+  color:#dadada;
+  opacity: 0;
+  animation: blink 1s step-end infinite, show-cursor 0.5s ease-in-out forwards, hide-cursor 0.5s ease-out forwards;
+}
+
+@keyframes blink{
+  50%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes show-cursor{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+@keyframes hide-cursor{
+  to{
+    opacity: 0;
+  }
 }
