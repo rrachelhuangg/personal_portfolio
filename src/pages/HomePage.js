@@ -1,10 +1,11 @@
-import React from "react"
+import React from "react";
+import "../index.css"
+import Header from "../components/Header"
 
 function HomePage(){
     return(
         <div>
-            <h1>Welcome to my website!</h1>
-            <p>This is the home page!</p>
+            <Header/>
         </div>
     );
 }
