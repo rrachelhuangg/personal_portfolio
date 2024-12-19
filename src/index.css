@@ -8,10 +8,38 @@ html, body, div {
   font-family:'JetBrains Mono';
 }
 
+.content-wrapper{
+  display: flex;
+  flex-direction: column;
+  margin:auto;
+}
+
+.main-text{
+  margin:auto;
+  padding-left:24%;
+  padding-right:24%;
+  cursor: pointer;
+  color:#797979;
+  line-height: 200%;
+  font-size:150%;
+  display: inline-block;
+  letter-spacing: -0.2em;
+  z-index:1;
+}
+
+.content-wrapper .main-text{
+  padding-left:0%;
+  padding-right:0%;
+  width:100%;
+}
+
 .header-component {
+  position: fixed;
   width:20%;
-  height:30%;
-  margin-top:4%;
+  height:4%;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background-color: #222222;
   color: white;
   display: flex;
@@ -24,8 +52,9 @@ html, body, div {
 }
 
 .footer-component {
+  position: fixed;
+  bottom: -23%;
   width:20%;
-  margin-top:16%;
   margin-left:20.31%;
   color: white;
   display: flex;
@@ -35,6 +64,45 @@ html, body, div {
   white-space: nowrap;
   padding-left:3.5%;
   padding-right:1.5%;
+} 
+
+.card-component{
+  cursor:pointer;
+  width:100%;
+  height:55%;
+  margin-top:1%;
+  text-align: left;
+  background-color: #222222;
+  color: rgb(188, 188, 188);
+  border-radius: 5px;
+  z-index: 1;
+  padding-top:0.5%;
+  padding-bottom:0.5%;
+  margin-bottom:3%;
+}
+
+.more-lines{
+  margin-bottom:1.75%;
+}
+
+.card-content{
+  background-color: #222222;
+  padding-left:10%;
+  padding-right:10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-medium-content{
+  font-size:80%;
+}
+
+.card-small-content{
+  font-size:60%;
+}
+
+.card-right-content{
+  text-align: right;
 }
 
 .link{
@@ -74,19 +142,7 @@ html, body, div {
   filter: invert(1) brightness(175%);
 }
 
-#main-text{
-  cursor: pointer;
-  margin-top:5%;
-  color:#797979;
-  padding-left:24%;
-  padding-right:24%;
-  line-height: 200%;
-  font-size:150%;
-  display: inline-block;
-  letter-spacing: -0.2em;
-}
-
-.letter, .letter2{
+.letter, .letter2, .letter3{
   display:inline-block;
   animation:typing 5s ease-in-out forwards;
 }

@@ -12,7 +12,7 @@ function Header(){
                 <img src={worldIcon}/>
                 about
             </Link>
-            <Link to="/" className="link">
+            <Link to="/cv" className="link">
                 <img src={cvIcon} className = "img2"/>
                 cv
             </Link>
