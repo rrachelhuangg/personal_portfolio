@@ -140,14 +140,23 @@ html, body, div {
   color:#797979;
 }
 
+.link-tag-big{
+  text-decoration: none;
+  color:#797979;
+  display:flex;
+  align-items:center;
+  font-size:112%;
+  color:#797979;
+}
+
+.link-tag-big:hover,.link-tag:hover {
+  color: rgb(188, 188, 188);
+}
+
 .link-tag .card-right-content{
   font-size:90%;
   color: rgb(188, 188, 188);
 }
-
-.link-tag:hover{
-  color: rgb(188, 188, 188);
-} 
 
 .link1{
   margin-right:12.5%;

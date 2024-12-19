@@ -13,12 +13,12 @@ function ProjectsPage(){
     const speed = 0.175;
 
     const card1Data = [
-        {left:"Numerical Analysis Software Tool", right:"", size: "large",tag:"", link:"", image:""},
+        {left:"Numerical Analysis Software Tool", right:"", size: "large",tag:"link-tag-big", link:"https://github.com/rrachelhuangg/numerical_methods", image:""},
         {left:"Command-line interface implementation of the Newton-Raphson Method and Simpson's Rule", right:"", size:"medium", tag:"", link:"", image:graphIcon}
     ];
 
     const card2Data = [
-        {left:"Literature Review of the ZX-Calculus Method", right:"", size: "large", tag:"", link:"", image:""},
+        {left:"Literature Review of the ZX-Calculus Method", right:"", size: "large", tag:"link-tag-big", link:"https://google.com", image:""},
         {left:"Presented at William & Mary Fall Undergraduate Research Symposium and W&M &Hacks Hackathon 2024.", right:"", size:"medium", tag: "",link:"", image:""},
         {left:"Selected as 1 of 2 students to present at 2024 Undergraduate Research Fair to represent the W&M Department of Computer Science.", right:"", size:"medium", tag: "more-lines", link:"", image:atomIcon}
     ];

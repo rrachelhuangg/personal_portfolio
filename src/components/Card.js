@@ -7,7 +7,7 @@ function Card({data}){
         <div className="card-component">
             {data.map((item, index)=>(
                 <div key={index} className={`card-content card-${item.size}-content ${item.tag}`}>
-                    {item.tag==="link-tag" ? (
+                    {item.tag==="link-tag" || item.tag==='link-tag-big' ? (
                         <a href = {item.link} target="_blank" className="link-tag">
                             {item.left}
                         </a>
