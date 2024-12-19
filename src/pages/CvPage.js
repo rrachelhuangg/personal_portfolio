@@ -26,21 +26,22 @@ function CvPage(){
 
     const card3Data = [
         {left:"OSLC", right:"Williamsburg, VA", size: "large", tag:""},
-        {left:"Musician", right:"2024-", size:"small", tag:""},
+        {left:"Musician", right:"2023-", size:"small", tag:""},
         {left:"Select and perform music with piano and pipe organ.", right:"", size:"medium", tag: ""},
     ];
 
     const card4Data = [
         {left:"Completed Courses", right:"", size: "large", tag:""},
-//        Software
-// Development, Computer Organization, Intermediate Linear Algebra, Data Structures, Discrete Structures, Foundations of Math
         {left:"Principles of Programming Languages, Algorithms, Ordinary Differential Equations", right:"", size:"medium", tag: ""},
+        {left:"Software Development, Computer Organization, Intermediate Linear Algebra", right:"", size:"medium", tag: ""},
+        {left:"Discrete Structures, Foundations of Math", right:"", size:"medium", tag: ""},
         {left:"Technical Skills", right:"", size: "large", tag:""},
-        {left:"[insert text here]", right:"", size:"medium", tag: ""},
+        {left:"Python, Java, Javascript, C, HTML, CSS, Git, Linux, FastAPI, React JS", right:"", size:"medium", tag: ""},
+        {left:"Docker, Bootstrap, Figma, Firebase, Arduino, Kestra", right:"", size:"medium", tag: ""},
     ];
 
     return(
-        <div style = {{display:'flex',flexDirection:'column', marginTop:'12.5%', textAlign:'center'}}>
+        <div style = {{display:'flex',flexDirection:'column', marginTop:'11.5%', textAlign:'center'}}>
             <Header/>
             <div className = "content-wrapper" style={{paddingTop:'20%'}}>
                 <div className = "main-text">
