@@ -82,7 +82,7 @@ html, body, div {
 }
 
 .more-lines{
-  padding-bottom:2.75%;
+  padding-bottom:2%;
 }
 
 .card-content{
@@ -112,6 +112,24 @@ html, body, div {
   align-items:center;
   font-size:80%;
 }
+
+.link-tag{
+  text-decoration: none;
+  color:#797979;
+  display:flex;
+  align-items:center;
+  font-size:90%;
+  color:#797979;
+}
+
+.link-tag .card-right-content{
+  font-size:90%;
+  color: rgb(188, 188, 188);
+}
+
+.link-tag:hover{
+  color: rgb(188, 188, 188);
+} 
 
 .link1{
   margin-right:12.5%;

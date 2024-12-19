@@ -9,7 +9,7 @@ function HomePage(){
     const speed = 0.175;
     
     return(
-        <div style = {{display:'flex',flexDirection:'column', marginTop:'7%'}}>
+        <div style = {{display:'flex',flexDirection:'column', marginTop:'6.75%'}}>
             <Header/>
             <div className = "main-text">
                 {firstBlock.split('').map((char, index)=>(

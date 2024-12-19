@@ -16,7 +16,7 @@ function Header(){
                 <img src={cvIcon} className = "img2"/>
                 cv
             </Link>
-            <Link to="/" className="link">
+            <Link to="/projects" className="link">
                 <img src={projectIcon}/>
                 projects
             </Link>

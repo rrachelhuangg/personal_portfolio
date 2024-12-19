@@ -7,7 +7,7 @@ import Card from "../components/Card";
 function CvPage(){
     const firstBlock = `i am currently a second-year student at w&m`;
     const secondBlock = `i also work for black cape, inc and oslc!`;
-    const thirdBlock = `my completed cources and technical skills:`;
+    const thirdBlock = `my completed courses and technical skills:`;
     const speed = 0.175;
 
     const card1Data = [
@@ -32,11 +32,11 @@ function CvPage(){
 
     const card4Data = [
         {left:"Completed Courses", right:"", size: "large", tag:""},
-        {left:"Principles of Programming Languages, Algorithms, Ordinary Differential Equations", right:"", size:"medium", tag: ""},
-        {left:"Software Development, Computer Organization, Intermediate Linear Algebra", right:"", size:"medium", tag: ""},
+        {left:"Principles of Programming Languages, Algorithms, Ordinary Differential Equations,", right:"", size:"medium", tag: ""},
+        {left:"Software Development, Computer Organization, Intermediate Linear Algebra,", right:"", size:"medium", tag: ""},
         {left:"Discrete Structures, Foundations of Math", right:"", size:"medium", tag: ""},
         {left:"Technical Skills", right:"", size: "large", tag:""},
-        {left:"Python, Java, Javascript, C, HTML, CSS, Git, Linux, FastAPI, React JS", right:"", size:"medium", tag: ""},
+        {left:"Python, Java, Javascript, C, HTML, CSS, Git, Linux, FastAPI, React JS,", right:"", size:"medium", tag: ""},
         {left:"Docker, Bootstrap, Figma, Firebase, Arduino, Kestra", right:"", size:"medium", tag: ""},
     ];
 
