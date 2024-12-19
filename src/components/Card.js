@@ -1,5 +1,6 @@
 import React from "react";
 import "../index.css";
+import atomIcon from "../assets/images/atom_icon.png";
 
 function Card({data}){
     return (
@@ -12,7 +13,10 @@ function Card({data}){
                         </a>
                     ):(item.left)
                     }
-                    <span className="card-right-content">{item.right}</span>
+                    <span className="card-right-content">
+                        {item.right}
+                        {item.image && <img src = {item.image} className={`card-icon ${item.image===atomIcon ? 'atom-icon':''}`}/>}
+                    </span>
                 </div>
             ))}
         </div>

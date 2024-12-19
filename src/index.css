@@ -102,7 +102,25 @@ html, body, div {
 }
 
 .card-right-content{
-  text-align: right;
+  display: flex;
+  align-items: center;
+  gap:10px;
+}
+
+.card-icon{
+  width:200%;
+  height:200%;
+  margin-bottom:25%;
+  margin-left:35%;
+  object-fit:contain;
+}
+
+.card-icon.atom-icon{
+  width:400%;
+  height:400%;
+  margin-bottom:32%;
+  object-fit:contain;
+  animation:rotate 30s linear infinite;
 }
 
 .link{
@@ -206,5 +224,14 @@ html, body, div {
 @keyframes hide-cursor{
   to{
     opacity: 0;
+  }
+}
+
+@keyframes rotate{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
   }
 }

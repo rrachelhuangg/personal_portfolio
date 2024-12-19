@@ -3,6 +3,8 @@ import "../index.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Card from "../components/Card";
+import graphIcon from "../assets/images/graph_icon.png";
+import atomIcon from "../assets/images/atom_icon.png";
 
 function ProjectsPage(){
     const firstBlock = `i try to combine cs and math in my projects`;
@@ -11,26 +13,26 @@ function ProjectsPage(){
     const speed = 0.175;
 
     const card1Data = [
-        {left:"Numerical Analysis Software Tool", right:"", size: "large",tag:"", link:""},
-        {left:"Command-line interface implementation of the Newton-Raphson Method and Simpson's Rule", right:"", size:"medium", tag:"", link:""}
+        {left:"Numerical Analysis Software Tool", right:"", size: "large",tag:"", link:"", image:""},
+        {left:"Command-line interface implementation of the Newton-Raphson Method and Simpson's Rule", right:"", size:"medium", tag:"", link:"", image:graphIcon}
     ];
 
     const card2Data = [
-        {left:"Literature Review of the ZX-Calculus Method", right:"", size: "large", tag:"", link:""},
-        {left:"Presented at William & Mary Fall Undergraduate Research Symposium and W&M &Hacks Hackathon 2024.", right:"", size:"medium", tag: "",link:""},
-        {left:"Selected as 1 of 2 students to present at 2024 Undergraduate Research Fair to represent the W&M Department of Computer Science.", right:"", size:"medium", tag: "more-lines", link:""}
+        {left:"Literature Review of the ZX-Calculus Method", right:"", size: "large", tag:"", link:"", image:""},
+        {left:"Presented at William & Mary Fall Undergraduate Research Symposium and W&M &Hacks Hackathon 2024.", right:"", size:"medium", tag: "",link:"", image:""},
+        {left:"Selected as 1 of 2 students to present at 2024 Undergraduate Research Fair to represent the W&M Department of Computer Science.", right:"", size:"medium", tag: "more-lines", link:"", image:atomIcon}
     ];
 
     const card3Data = [
-        {left:"Virginia Space Grant Consortium STEM Bridge Scholarship", right:"2024", size: "medium", tag:"", link:""},
-        {left:"James Monroe Scholar Research Scholarship", right:"2023", size: "medium", tag:"", link:""},
-        {left:"National Merit Scholarship Finalist", right:"2023", size: "medium", tag:"",link:""},
-        {left:"Comparing Music with Dynamic Programming String-Matching Algorithms", right:"2022", size: "medium", tag:"link-tag", link:"https://journals.gmu.edu/index.php/jssr/article/view/3370"},
-        {left:"Comparisons of Classic and Quantum String Matching Algorithms", right:"2022", size: "medium", tag:"link-tag", link:"https://dl.acm.org/doi/pdf/10.1145/3573834.3574498"}
+        {left:"Virginia Space Grant Consortium STEM Bridge Scholarship", right:"2024", size: "medium", tag:"", link:"", image:""},
+        {left:"James Monroe Scholar Research Scholarship", right:"2023", size: "medium", tag:"", link:"", image:""},
+        {left:"National Merit Scholarship Finalist", right:"2023", size: "medium", tag:"",link:"", image:""},
+        {left:"Comparing Music with Dynamic Programming String-Matching Algorithms", right:"2022", size: "medium", tag:"link-tag", link:"https://journals.gmu.edu/index.php/jssr/article/view/3370", image:""},
+        {left:"Comparisons of Classic and Quantum String Matching Algorithms", right:"2022", size: "medium", tag:"link-tag", link:"https://dl.acm.org/doi/pdf/10.1145/3573834.3574498", image:""}
     ];
 
     return(
-        <div style = {{display:'flex',flexDirection:'column', marginTop:'8%', textAlign:'center'}}>
+        <div style = {{display:'flex',flexDirection:'column', marginTop:'8.6%', textAlign:'center'}}>
             <Header/>
             <div className = "content-wrapper" style={{paddingTop:'20%'}}>
                 <div className = "main-text">
